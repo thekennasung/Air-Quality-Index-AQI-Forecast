@@ -9,12 +9,15 @@ Additionally, the project integrates **web scraping** techniques to collect real
 ## Features
 
 - **Data Preprocessing**: The data is normalized using `StandardScaler` and `MinMaxScaler` from `sklearn.preprocessing` to ensure optimal model performance.
+
 - **Modeling**:
   - **Random Forest**: A robust ensemble learning method from the `sklearn` library, suitable for handling non-linear relationships and feature interactions in time series data.
   - **LightGBM**: An efficient gradient boosting method, ideal for handling large datasets and fast model training.
   - **XGBoost**: A powerful gradient boosting model for time series regression.
   - **LSTM**: A specialized type of recurrent neural network (RNN) built with PyTorch, designed for capturing long-term dependencies in time series data. LSTMs are particularly effective for AQI forecasting as they can learn complex temporal patterns in the data.
+
 - **Web Scraping**: Automated data collection from online AQI monitoring websites, ensuring fresh data for training and testing.
+
 - **Model Evaluation**: Models are evaluated using accuracy metrics and confusion matrices, giving insight into their forecasting abilities.
 
 ## Project Structure
@@ -31,6 +34,7 @@ Additionally, the project integrates **web scraping** techniques to collect real
 ## Requirements
 
 - `Python 3.x`
+
 - Key libraries:
   - `pandas`
   - `numpy`
